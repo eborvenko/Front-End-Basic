@@ -1,0 +1,11 @@
+.visibility-menu {
+    visibility: hidden;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .visibility-menu {
+        visibility: visible;
+        display: inline-block;
+    }
+}

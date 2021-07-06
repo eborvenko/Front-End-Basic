@@ -1,0 +1,42 @@
+.slider-nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+    &__item {
+        margin: 0 7px;
+    }
+
+    &__button {
+        cursor: pointer;
+        width: 15px;
+        height: 15px;
+        background-color: $blue;
+        opacity: 0.2;
+        border: none;
+        border-radius: 50%;
+        text-indent: 20px;
+        overflow: hidden;
+
+        &:hover {
+            background-color: $blue;
+            opacity: 0.6;
+        }
+
+        &_active {
+            background-color: $blue;
+            opacity: 1;
+        }
+    }
+
+}
+
+@media (min-width: 992px) {
+    .slider-nav {
+        &_change{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}

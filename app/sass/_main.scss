@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'tt_norms', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;        
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1440px;
+    // max-width: 1320px;
+    min-width: 375px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        color: $pink;
+    }
+}

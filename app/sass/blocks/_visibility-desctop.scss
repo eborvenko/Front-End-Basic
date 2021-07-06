@@ -1,0 +1,12 @@
+.visibility-desctop {
+    visibility: hidden;
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .visibility-desctop {
+        visibility: visible;
+        display: inline-block;
+    }
+}
+

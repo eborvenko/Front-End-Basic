@@ -1,0 +1,12 @@
+.visibility-tablet {   
+    visibility: visible;
+    display: inline-block;
+}
+
+
+@media (min-width: 992px) {
+    .visibility-tablet {   
+        visibility: hidden;
+        display: none;
+    }
+}

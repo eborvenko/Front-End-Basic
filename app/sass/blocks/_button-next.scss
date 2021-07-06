@@ -1,0 +1,15 @@
+.button-next {
+    width: 250px;
+    background: $blue;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+    border-radius: 12px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    display: inline-block;
+    text-align: center;
+
+    &:hover {
+        background: $blue-mid;
+    }
+}

@@ -1,0 +1,14 @@
+
+.header-themes {
+    background:url(../img/bg.svg)  center bottom no-repeat,
+                $gradient-right-top;
+}
+
+@media (min-width: 992px) {
+    .header-themes {
+        background:url(../img/bg.svg)  center bottom no-repeat,
+        url(../img/bg-top.svg) center bottom no-repeat,
+                    $gradient-right-top;
+    }
+    
+}

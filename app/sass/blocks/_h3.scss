@@ -1,0 +1,23 @@
+.h3 {
+    color: $navy;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+
+    &_mobile{
+        
+        align-items: center;
+        color: $navy-light;        
+    }
+
+    &_black-themes {
+        color: $blue;
+    }
+}
+
+@media (min-width: 992px) {
+    .h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+}

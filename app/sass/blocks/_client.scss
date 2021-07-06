@@ -1,0 +1,122 @@
+.client {
+    padding-top: 4px;
+
+    &__title {
+        text-align: center;
+        padding-bottom: 29px;
+        line-height: 16px;
+    }
+
+    &__list {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        width: 50%;
+        text-align: center;
+        height: 90px;
+        line-height: 90px;      
+
+        &_hillel {
+            background: #1C4280;            
+        }
+
+        &_wannabiz {
+            background: #143646;
+        }
+
+        &_tapgerine {
+            background: #F48B30;
+        }
+
+        &_dlook {
+            background: #9E4DC3;
+        }
+
+        &_orangear {
+            background: #FD9339;
+        }
+
+        &_adtelligent {
+            background: #E2E2E4;
+        }
+
+        &_clickky {
+            background: #C71C36;
+        }
+
+        &_eco-leasing {
+            background: #DCF3F9;
+        }
+
+        &_infra-tek {
+            background: #EAEAEA;
+        }
+
+        &_city-park {
+            background: #282240;
+        }
+
+        &_art-print {
+            background: #1D4568;
+        }
+
+        &_ultimate-card {
+            background: #000000;
+        }
+    }
+    
+    &__img {
+        vertical-align: middle;    
+    }
+}
+
+@media (min-width: 768px) {
+    .client {
+        &__item {
+            width: 33.333%;
+            height: 120px;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .client {
+        padding-top: 8px;
+        &__item {
+            width: 25%;
+            height: 120px;
+        }
+        &__img {
+            max-width: 100%;
+            vertical-align: bottom;  
+            &_tapgerine {
+                width: 179px;
+                height: 44px;
+            }
+    
+            &_orangear {
+                width: 174px;
+                height: 44px;
+            }
+    
+            &_adtelligent {
+                width: 187px;
+                height: 48px;
+            }
+    
+            &_clickky {
+                width: 138px;
+                height: 61px;
+            }
+        
+            &_city-park {
+                width: 181px;
+                height: 38px;
+            }                 
+        }
+    }
+}

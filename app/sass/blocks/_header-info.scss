@@ -1,0 +1,22 @@
+.header-info {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .header-info {
+        justify-content: center;
+        padding-top: 5px;
+        padding-bottom: 12px;
+    }    
+}
+
+@media (min-width: 992px) {
+    .header-info {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        justify-self: end;
+    }
+}

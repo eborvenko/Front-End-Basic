@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'tt_norms';
+    src: url('../fonts/ttnorms-bold-webfont.woff2') format('woff2'),
+        url('../fonts/ttnorms-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tt_norms';
+    src: url('../fonts/ttnorms-medium-webfont.woff2') format('woff2'),
+        url('../fonts/ttnorms-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tt_norms';
+    src: url('../fonts/ttnorms-regular-webfont.woff2') format('woff2'),
+        url('../fonts/ttnorms-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}

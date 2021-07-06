@@ -1,0 +1,14 @@
+.h2 {
+    color: $navy;
+    font-size: 32px;
+    font-weight: 500;
+
+    &_black-themes {
+        color: $white;
+    }
+
+    &_mobile {
+        font-size: 22px;
+        line-height: 26px;
+    }
+}

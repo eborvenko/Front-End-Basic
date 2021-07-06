@@ -1,0 +1,30 @@
+.paragraph {
+    color: $black;
+    font-size: 16px;
+
+    &_black-themes {
+        color: $white;
+    }
+
+    &_mobile {
+        font-size: 18px;
+        line-height: 26px;  
+    }
+
+    &_mobile-services {
+        font-size: 16px;
+        line-height: 22px;
+        color: $white;
+    }
+
+    &_gray {
+        color: $gray-dark;
+    }
+}
+
+@media (min-width:992px) {
+    .paragraph {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}

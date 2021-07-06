@@ -1,0 +1,11 @@
+.visibility-mobile {
+    visibility: visible;
+    display: inline-block;
+}
+
+@media (min-width: 768px) {
+    .visibility-mobile {
+        visibility: hidden;
+        display: none;
+    }
+}

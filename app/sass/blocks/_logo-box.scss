@@ -1,0 +1,30 @@
+.logo-box {
+    &__svg {
+        width: 78px;
+        height: 31px;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo-box {
+        grid-column: span 2;
+
+        &__svg {
+            width: 156px; 
+            height: 62px;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .logo-box {
+        grid-column: 1 / 2;
+        grid-row: 1 / -1;
+        align-self: flex-start;
+
+        &__svg {
+            width: 156px; 
+            height: 62px;
+        }
+    }
+}
